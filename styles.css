@@ -51,7 +51,7 @@ button {
 
 .header-content,
 .information-section,
-.quote {
+.quote-section {
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -94,10 +94,14 @@ button {
   flex: 1;
 }
 
-.information-header {
-  font-size: 36px;
+.information-header,
+.author {
   font-weight: 650;
   color: #1F2937;
+}
+
+.information-header {
+  font-size: 36px;
 }
 
 .information {
@@ -124,6 +128,20 @@ button {
   text-align: center;
 }
 
-.quote {
+.quote-section {
   background-color: #E5E7EB;
+  padding: 0 350px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  width: 820px;
+}
+
+.author {
+  text-align: right;
+  align-self: flex-end;
 }
