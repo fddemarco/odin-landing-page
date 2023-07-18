@@ -50,7 +50,7 @@ button {
 }
 
 .header-content,
-.information-carousel,
+.information-section,
 .quote {
   min-height: 50vh;
   display: flex;
@@ -58,7 +58,7 @@ button {
   flex: 1;
 }
 
-.header-block {
+.container {
   display: flex;
   gap: 16px;
 }
@@ -86,25 +86,24 @@ button {
   padding: 0;
 }
 
-.information-carousel {
+.column-container {
   display: flex;
   flex-direction: column;
-  gap: 64px;
   align-items: center;
+  gap: 16px;
+  flex: 1;
 }
 
 .information-header {
   font-size: 36px;
   font-weight: 650;
   color: #1F2937;
-  flex: 1;
 }
 
 .information {
   flex: 1;
   display: flex;
   gap: 64px;
-  align-items: center;
 }
 
 .information-box {
@@ -117,11 +116,14 @@ button {
 .box {
   border: 4px solid #3B82F6;
   border-radius: 8px;
-  padding: 80px 80px;
+  padding: 75px 75px;
 }
 
 .box-description {
   color: #4b5563;
   text-align: center;
-  padding: 5px;
+}
+
+.quote {
+  background-color: #E5E7EB;
 }
